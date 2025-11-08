@@ -60,7 +60,7 @@ struct LogbookView: View {
 
                 // Completed items list
                 List {
-                    if filteredItems.isEmpty {
+                    if filteredItems.tasks.isEmpty && filteredItems.projects.isEmpty {
                         emptyState
                     } else {
                         ForEach(groupedItems, id: \.key) { group in
