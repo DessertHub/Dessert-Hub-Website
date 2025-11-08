@@ -9,18 +9,19 @@ import SwiftUI
 
 struct ContentView: View {
     @State private var selectedTab = 0
+    @State private var showingSidebar = false
 
     var body: some View {
         TabView(selection: $selectedTab) {
             InboxView()
                 .tabItem {
-                    Label("Inbox", systemImage: "tray")
+                    Label("Inbox", systemImage: "tray.fill")
                 }
                 .tag(0)
 
             TodayView()
                 .tabItem {
-                    Label("Today", systemImage: "star")
+                    Label("Today", systemImage: "star.fill")
                 }
                 .tag(1)
 
@@ -32,44 +33,23 @@ struct ContentView: View {
 
             AnytimeView()
                 .tabItem {
-                    Label("Anytime", systemImage: "archivebox")
+                    Label("Anytime", systemImage: "archivebox.fill")
                 }
                 .tag(3)
+
+            SomedayView()
+                .tabItem {
+                    Label("Someday", systemImage: "cloud.fill")
+                }
+                .tag(4)
+
+            LogbookView()
+                .tabItem {
+                    Label("Logbook", systemImage: "checkmark.circle.fill")
+                }
+                .tag(5)
         }
         .accentColor(Color(red: 0.2, green: 0.5, blue: 1.0)) // Things blue
-    }
-}
-
-// Placeholder views for tabs not in MVP
-struct UpcomingView: View {
-    var body: some View {
-        NavigationView {
-            VStack {
-                Text("Upcoming")
-                    .font(.largeTitle)
-                    .foregroundColor(.gray)
-                Text("Coming soon")
-                    .font(.subheadline)
-                    .foregroundColor(.gray)
-            }
-            .navigationTitle("Upcoming")
-        }
-    }
-}
-
-struct AnytimeView: View {
-    var body: some View {
-        NavigationView {
-            VStack {
-                Text("Anytime")
-                    .font(.largeTitle)
-                    .foregroundColor(.gray)
-                Text("Coming soon")
-                    .font(.subheadline)
-                    .foregroundColor(.gray)
-            }
-            .navigationTitle("Anytime")
-        }
     }
 }
 
