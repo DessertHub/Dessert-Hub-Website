@@ -7,38 +7,82 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		A1000001 /* ThingsCloneApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1000002 /* ThingsCloneApp.swift */; };
-		A1000003 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1000004 /* ContentView.swift */; };
-		A1000005 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A1000006 /* Assets.xcassets */; };
-		A1000007 /* TaskModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A1000008 /* TaskModel.xcdatamodeld */; };
-		A1000009 /* PersistenceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A100000A /* PersistenceController.swift */; };
-		A100000B /* Task+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = A100000C /* Task+CoreDataClass.swift */; };
-		A100000D /* Task+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = A100000E /* Task+CoreDataProperties.swift */; };
-		A100000F /* InboxView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1000010 /* InboxView.swift */; };
-		A1000011 /* TodayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1000012 /* TodayView.swift */; };
-		A1000013 /* TaskRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1000014 /* TaskRow.swift */; };
-		A1000015 /* TaskEditView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1000016 /* TaskEditView.swift */; };
-		A1000017 /* TaskViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1000018 /* TaskViewModel.swift */; };
+		F1000001 /* ThingsCloneApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2000001 /* ThingsCloneApp.swift */; };
+		F1000002 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2000002 /* ContentView.swift */; };
+		F1000003 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F2000003 /* Assets.xcassets */; };
+		F1000010 /* PersistenceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2000010 /* PersistenceController.swift */; };
+		F1000011 /* Task+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2000011 /* Task+CoreDataClass.swift */; };
+		F1000012 /* Task+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2000012 /* Task+CoreDataProperties.swift */; };
+		F1000013 /* Project+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2000013 /* Project+CoreDataClass.swift */; };
+		F1000014 /* Project+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2000014 /* Project+CoreDataProperties.swift */; };
+		F1000015 /* Area+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2000015 /* Area+CoreDataClass.swift */; };
+		F1000016 /* Area+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2000016 /* Area+CoreDataProperties.swift */; };
+		F1000017 /* Tag+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2000017 /* Tag+CoreDataClass.swift */; };
+		F1000018 /* Tag+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2000018 /* Tag+CoreDataProperties.swift */; };
+		F1000019 /* Heading+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2000019 /* Heading+CoreDataClass.swift */; };
+		F1000020 /* Heading+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2000020 /* Heading+CoreDataProperties.swift */; };
+		F1000021 /* ChecklistItem+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2000021 /* ChecklistItem+CoreDataClass.swift */; };
+		F1000022 /* ChecklistItem+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2000022 /* ChecklistItem+CoreDataProperties.swift */; };
+		F1000030 /* TaskViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2000030 /* TaskViewModel.swift */; };
+		F1000031 /* ProjectViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2000031 /* ProjectViewModel.swift */; };
+		F1000040 /* InboxView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2000040 /* InboxView.swift */; };
+		F1000041 /* TodayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2000041 /* TodayView.swift */; };
+		F1000042 /* UpcomingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2000042 /* UpcomingView.swift */; };
+		F1000043 /* AnytimeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2000043 /* AnytimeView.swift */; };
+		F1000044 /* SomedayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2000044 /* SomedayView.swift */; };
+		F1000045 /* LogbookView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2000045 /* LogbookView.swift */; };
+		F1000046 /* TaskRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2000046 /* TaskRow.swift */; };
+		F1000047 /* TaskEditView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2000047 /* TaskEditView.swift */; };
+		F1000048 /* TaskDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2000048 /* TaskDetailView.swift */; };
+		F1000049 /* ProjectsListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2000049 /* ProjectsListView.swift */; };
+		F1000050 /* ProjectDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2000050 /* ProjectDetailView.swift */; };
+		F1000051 /* TagsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2000051 /* TagsView.swift */; };
+		F1000052 /* SearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2000052 /* SearchView.swift */; };
+		F1000053 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2000053 /* SettingsView.swift */; };
+		F1000060 /* AnimationHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2000060 /* AnimationHelpers.swift */; };
+		F1000070 /* TaskModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F2000070 /* TaskModel.xcdatamodeld */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		A1000002 /* ThingsCloneApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThingsCloneApp.swift; sourceTree = "<group>"; };
-		A1000004 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		A1000006 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		A1000008 /* TaskModel.xcdatamodeld */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodeld; path = TaskModel.xcdatamodeld; sourceTree = "<group>"; };
-		A100000A /* PersistenceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersistenceController.swift; sourceTree = "<group>"; };
-		A100000C /* Task+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Task+CoreDataClass.swift"; sourceTree = "<group>"; };
-		A100000E /* Task+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Task+CoreDataProperties.swift"; sourceTree = "<group>"; };
-		A1000010 /* InboxView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InboxView.swift; sourceTree = "<group>"; };
-		A1000012 /* TodayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodayView.swift; sourceTree = "<group>"; };
-		A1000014 /* TaskRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskRow.swift; sourceTree = "<group>"; };
-		A1000016 /* TaskEditView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskEditView.swift; sourceTree = "<group>"; };
-		A1000018 /* TaskViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskViewModel.swift; sourceTree = "<group>"; };
-		A1FFFFFF /* ThingsClone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ThingsClone.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F0000001 /* ThingsClone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ThingsClone.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F2000001 /* ThingsCloneApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThingsCloneApp.swift; sourceTree = "<group>"; };
+		F2000002 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		F2000003 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F2000010 /* PersistenceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersistenceController.swift; sourceTree = "<group>"; };
+		F2000011 /* Task+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Task+CoreDataClass.swift"; sourceTree = "<group>"; };
+		F2000012 /* Task+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Task+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		F2000013 /* Project+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Project+CoreDataClass.swift"; sourceTree = "<group>"; };
+		F2000014 /* Project+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Project+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		F2000015 /* Area+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Area+CoreDataClass.swift"; sourceTree = "<group>"; };
+		F2000016 /* Area+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Area+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		F2000017 /* Tag+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Tag+CoreDataClass.swift"; sourceTree = "<group>"; };
+		F2000018 /* Tag+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Tag+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		F2000019 /* Heading+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Heading+CoreDataClass.swift"; sourceTree = "<group>"; };
+		F2000020 /* Heading+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Heading+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		F2000021 /* ChecklistItem+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ChecklistItem+CoreDataClass.swift"; sourceTree = "<group>"; };
+		F2000022 /* ChecklistItem+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ChecklistItem+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		F2000030 /* TaskViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskViewModel.swift; sourceTree = "<group>"; };
+		F2000031 /* ProjectViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectViewModel.swift; sourceTree = "<group>"; };
+		F2000040 /* InboxView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InboxView.swift; sourceTree = "<group>"; };
+		F2000041 /* TodayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodayView.swift; sourceTree = "<group>"; };
+		F2000042 /* UpcomingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpcomingView.swift; sourceTree = "<group>"; };
+		F2000043 /* AnytimeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnytimeView.swift; sourceTree = "<group>"; };
+		F2000044 /* SomedayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SomedayView.swift; sourceTree = "<group>"; };
+		F2000045 /* LogbookView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogbookView.swift; sourceTree = "<group>"; };
+		F2000046 /* TaskRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskRow.swift; sourceTree = "<group>"; };
+		F2000047 /* TaskEditView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskEditView.swift; sourceTree = "<group>"; };
+		F2000048 /* TaskDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskDetailView.swift; sourceTree = "<group>"; };
+		F2000049 /* ProjectsListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectsListView.swift; sourceTree = "<group>"; };
+		F2000050 /* ProjectDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectDetailView.swift; sourceTree = "<group>"; };
+		F2000051 /* TagsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TagsView.swift; sourceTree = "<group>"; };
+		F2000052 /* SearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchView.swift; sourceTree = "<group>"; };
+		F2000053 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		F2000060 /* AnimationHelpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationHelpers.swift; sourceTree = "<group>"; };
+		F2000070 /* TaskModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = TaskModel.xcdatamodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		A1FFFFFE /* Frameworks */ = {
+		F0000002 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -48,83 +92,105 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		A1FFFFFD /* ThingsClone */ = {
+		F3000000 = {
 			isa = PBXGroup;
 			children = (
-				A1000002 /* ThingsCloneApp.swift */,
-				A1000004 /* ContentView.swift */,
-				A1FFFFFA /* Models */,
-				A1FFFFFB /* Views */,
-				A1FFFFFC /* ViewModels */,
-				A1FFFFF9 /* CoreData */,
-				A1000006 /* Assets.xcassets */,
+				F3000001 /* ThingsClone */,
+				F3000002 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F3000001 /* ThingsClone */ = {
+			isa = PBXGroup;
+			children = (
+				F2000001 /* ThingsCloneApp.swift */,
+				F2000002 /* ContentView.swift */,
+				F3000010 /* CoreData */,
+				F3000020 /* ViewModels */,
+				F3000030 /* Views */,
+				F3000040 /* Utilities */,
+				F2000003 /* Assets.xcassets */,
 			);
 			path = ThingsClone;
 			sourceTree = "<group>";
 		};
-		A1FFFFF9 /* CoreData */ = {
+		F3000002 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				A1000008 /* TaskModel.xcdatamodeld */,
-				A100000A /* PersistenceController.swift */,
-				A100000C /* Task+CoreDataClass.swift */,
-				A100000E /* Task+CoreDataProperties.swift */,
+				F0000001 /* ThingsClone.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F3000010 /* CoreData */ = {
+			isa = PBXGroup;
+			children = (
+				F2000010 /* PersistenceController.swift */,
+				F2000011 /* Task+CoreDataClass.swift */,
+				F2000012 /* Task+CoreDataProperties.swift */,
+				F2000013 /* Project+CoreDataClass.swift */,
+				F2000014 /* Project+CoreDataProperties.swift */,
+				F2000015 /* Area+CoreDataClass.swift */,
+				F2000016 /* Area+CoreDataProperties.swift */,
+				F2000017 /* Tag+CoreDataClass.swift */,
+				F2000018 /* Tag+CoreDataProperties.swift */,
+				F2000019 /* Heading+CoreDataClass.swift */,
+				F2000020 /* Heading+CoreDataProperties.swift */,
+				F2000021 /* ChecklistItem+CoreDataClass.swift */,
+				F2000022 /* ChecklistItem+CoreDataProperties.swift */,
+				F2000070 /* TaskModel.xcdatamodeld */,
 			);
 			path = CoreData;
 			sourceTree = "<group>";
 		};
-		A1FFFFFA /* Models */ = {
+		F3000020 /* ViewModels */ = {
 			isa = PBXGroup;
 			children = (
-			);
-			path = Models;
-			sourceTree = "<group>";
-		};
-		A1FFFFFB /* Views */ = {
-			isa = PBXGroup;
-			children = (
-				A1000010 /* InboxView.swift */,
-				A1000012 /* TodayView.swift */,
-				A1000014 /* TaskRow.swift */,
-				A1000016 /* TaskEditView.swift */,
-			);
-			path = Views;
-			sourceTree = "<group>";
-		};
-		A1FFFFFC /* ViewModels */ = {
-			isa = PBXGroup;
-			children = (
-				A1000018 /* TaskViewModel.swift */,
+				F2000030 /* TaskViewModel.swift */,
+				F2000031 /* ProjectViewModel.swift */,
 			);
 			path = ViewModels;
 			sourceTree = "<group>";
 		};
-		A1FFFFF8 = {
+		F3000030 /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				A1FFFFFD /* ThingsClone */,
-				A1FFFFF7 /* Products */,
+				F2000040 /* InboxView.swift */,
+				F2000041 /* TodayView.swift */,
+				F2000042 /* UpcomingView.swift */,
+				F2000043 /* AnytimeView.swift */,
+				F2000044 /* SomedayView.swift */,
+				F2000045 /* LogbookView.swift */,
+				F2000046 /* TaskRow.swift */,
+				F2000047 /* TaskEditView.swift */,
+				F2000048 /* TaskDetailView.swift */,
+				F2000049 /* ProjectsListView.swift */,
+				F2000050 /* ProjectDetailView.swift */,
+				F2000051 /* TagsView.swift */,
+				F2000052 /* SearchView.swift */,
+				F2000053 /* SettingsView.swift */,
 			);
+			path = Views;
 			sourceTree = "<group>";
 		};
-		A1FFFFF7 /* Products */ = {
+		F3000040 /* Utilities */ = {
 			isa = PBXGroup;
 			children = (
-				A1FFFFFF /* ThingsClone.app */,
+				F2000060 /* AnimationHelpers.swift */,
 			);
-			name = Products;
+			path = Utilities;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		A1FFFFFE /* ThingsClone */ = {
+		F0000003 /* ThingsClone */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A1FFFFFA /* Build configuration list for PBXNativeTarget "ThingsClone" */;
+			buildConfigurationList = F0000004 /* Build configuration list for PBXNativeTarget "ThingsClone" */;
 			buildPhases = (
-				A1FFFFFB /* Sources */,
-				A1FFFFFE /* Frameworks */,
-				A1FFFFFD /* Resources */,
+				F0000005 /* Sources */,
+				F0000002 /* Frameworks */,
+				F0000006 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -132,25 +198,25 @@
 			);
 			name = ThingsClone;
 			productName = ThingsClone;
-			productReference = A1FFFFFF /* ThingsClone.app */;
+			productReference = F0000001 /* ThingsClone.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		A1FFFFF6 /* Project object */ = {
+		F0000007 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1500;
 				LastUpgradeCheck = 1500;
 				TargetAttributes = {
-					A1FFFFFE = {
+					F0000003 = {
 						CreatedOnToolsVersion = 15.0;
 					};
 				};
 			};
-			buildConfigurationList = A1FFFFF5 /* Build configuration list for PBXProject "ThingsClone" */;
+			buildConfigurationList = F0000008 /* Build configuration list for PBXProject "ThingsClone" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -158,50 +224,72 @@
 				en,
 				Base,
 			);
-			mainGroup = A1FFFFF8;
-			productRefGroup = A1FFFFF7 /* Products */;
+			mainGroup = F3000000;
+			productRefGroup = F3000002 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				A1FFFFFE /* ThingsClone */,
+				F0000003 /* ThingsClone */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		A1FFFFFD /* Resources */ = {
+		F0000006 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A1000005 /* Assets.xcassets in Resources */,
+				F1000003 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		A1FFFFFB /* Sources */ = {
+		F0000005 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A1000003 /* ContentView.swift in Sources */,
-				A1000001 /* ThingsCloneApp.swift in Sources */,
-				A1000007 /* TaskModel.xcdatamodeld in Sources */,
-				A1000009 /* PersistenceController.swift in Sources */,
-				A100000B /* Task+CoreDataClass.swift in Sources */,
-				A100000D /* Task+CoreDataProperties.swift in Sources */,
-				A100000F /* InboxView.swift in Sources */,
-				A1000011 /* TodayView.swift in Sources */,
-				A1000013 /* TaskRow.swift in Sources */,
-				A1000015 /* TaskEditView.swift in Sources */,
-				A1000017 /* TaskViewModel.swift in Sources */,
+				F1000001 /* ThingsCloneApp.swift in Sources */,
+				F1000002 /* ContentView.swift in Sources */,
+				F1000010 /* PersistenceController.swift in Sources */,
+				F1000011 /* Task+CoreDataClass.swift in Sources */,
+				F1000012 /* Task+CoreDataProperties.swift in Sources */,
+				F1000013 /* Project+CoreDataClass.swift in Sources */,
+				F1000014 /* Project+CoreDataProperties.swift in Sources */,
+				F1000015 /* Area+CoreDataClass.swift in Sources */,
+				F1000016 /* Area+CoreDataProperties.swift in Sources */,
+				F1000017 /* Tag+CoreDataClass.swift in Sources */,
+				F1000018 /* Tag+CoreDataProperties.swift in Sources */,
+				F1000019 /* Heading+CoreDataClass.swift in Sources */,
+				F1000020 /* Heading+CoreDataProperties.swift in Sources */,
+				F1000021 /* ChecklistItem+CoreDataClass.swift in Sources */,
+				F1000022 /* ChecklistItem+CoreDataProperties.swift in Sources */,
+				F1000030 /* TaskViewModel.swift in Sources */,
+				F1000031 /* ProjectViewModel.swift in Sources */,
+				F1000040 /* InboxView.swift in Sources */,
+				F1000041 /* TodayView.swift in Sources */,
+				F1000042 /* UpcomingView.swift in Sources */,
+				F1000043 /* AnytimeView.swift in Sources */,
+				F1000044 /* SomedayView.swift in Sources */,
+				F1000045 /* LogbookView.swift in Sources */,
+				F1000046 /* TaskRow.swift in Sources */,
+				F1000047 /* TaskEditView.swift in Sources */,
+				F1000048 /* TaskDetailView.swift in Sources */,
+				F1000049 /* ProjectsListView.swift in Sources */,
+				F1000050 /* ProjectDetailView.swift in Sources */,
+				F1000051 /* TagsView.swift in Sources */,
+				F1000052 /* SearchView.swift in Sources */,
+				F1000053 /* SettingsView.swift in Sources */,
+				F1000060 /* AnimationHelpers.swift in Sources */,
+				F1000070 /* TaskModel.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		A1FFFFF0 /* Debug */ = {
+		F0000010 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -264,7 +352,7 @@
 			};
 			name = Debug;
 		};
-		A1FFFFF1 /* Release */ = {
+		F0000011 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -320,14 +408,14 @@
 			};
 			name = Release;
 		};
-		A1FFFFF2 /* Debug */ = {
+		F0000012 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"ThingsClone/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -348,14 +436,14 @@
 			};
 			name = Debug;
 		};
-		A1FFFFF3 /* Release */ = {
+		F0000013 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"ThingsClone/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -379,25 +467,39 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		A1FFFFF5 /* Build configuration list for PBXProject "ThingsClone" */ = {
+		F0000008 /* Build configuration list for PBXProject "ThingsClone" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				A1FFFFF0 /* Debug */,
-				A1FFFFF1 /* Release */,
+				F0000010 /* Debug */,
+				F0000011 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A1FFFFFA /* Build configuration list for PBXNativeTarget "ThingsClone" */ = {
+		F0000004 /* Build configuration list for PBXNativeTarget "ThingsClone" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				A1FFFFF2 /* Debug */,
-				A1FFFFF3 /* Release */,
+				F0000012 /* Debug */,
+				F0000013 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		F2000070 /* TaskModel.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				F2000071 /* TaskModel.xcdatamodel */,
+			);
+			currentVersion = F2000071 /* TaskModel.xcdatamodel */;
+			path = TaskModel.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+		F2000071 /* TaskModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = TaskModel.xcdatamodel; sourceTree = "<group>"; };
+/* End XCVersionGroup section */
 	};
-	rootObject = A1FFFFF6 /* Project object */;
+	rootObject = F0000007 /* Project object */;
 }
